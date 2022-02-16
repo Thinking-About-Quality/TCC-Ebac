@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar o Repositório') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Thinking-About-Quality/TCC-Ebac.git'   
+            }
+        }
+                stage('instalar dependencias') {
+            steps {
+                powershell 'npm ci'
+            }
+        }
+                stage('Testes Ebac-shop') {
+            steps {
+                powershell 'npm run cy:run'
+            }
+        }
+    }
+}
