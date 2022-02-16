@@ -1,0 +1,17 @@
+{
+    "env":{
+        "urlbasecoupons": "lojaebac.ebaconline.art.br/wp-json",
+        "username":"admin_ebac",
+        "password":"@admin!&b@c!2022"
+    },
+    "reporterOptions": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "pluginsFile":false,
+    "chromeWebSecurity": false 
+}
+
+

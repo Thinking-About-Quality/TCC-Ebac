@@ -1,0 +1,24 @@
+{
+  "name": "us003apicupons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.6",
+    "cypress": "^9.4.1"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.3",
+    "cypress-grep": "^1.0.0",
+    "faker": "^6.6.6",
+    "grep": "^0.1.0",
+    "grep-cli": "^0.2.1",
+    "joi": "^17.6.0"
+  }
+}

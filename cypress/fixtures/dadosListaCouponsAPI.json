@@ -1,0 +1,41 @@
+{
+    "id": 5099,
+    "code": "nomecupom5",
+    "amount": "10.00",
+    "date_created": "2022-02-03T22:36:20",
+    "date_created_gmt": "2022-02-04T01:36:20",
+    "date_modified": "2022-02-03T22:36:20",
+    "date_modified_gmt": "2022-02-04T01:36:20",
+    "discount_type": "fixed_product",
+    "description": "Cupom de desconto de teste",
+    "date_expires": null,
+    "date_expires_gmt": null,
+    "usage_count": 0,
+    "individual_use": false,
+    "product_ids": [],
+    "excluded_product_ids": [],
+    "usage_limit": null,
+    "usage_limit_per_user": null,
+    "limit_usage_to_x_items": null,
+    "free_shipping": false,
+    "product_categories": [],
+    "excluded_product_categories": [],
+    "exclude_sale_items": false,
+    "minimum_amount": "0.00",
+    "maximum_amount": "0.00",
+    "email_restrictions": [],
+    "used_by": [],
+    "meta_data": [],
+    "_links": {
+        "self": [
+            {
+                "href": "http://lojaebac.ebaconline.art.br/wp-json/wc/v3/coupons/5099"
+            }
+        ],
+        "collection": [
+            {
+                "href": "http://lojaebac.ebaconline.art.br/wp-json/wc/v3/coupons"
+            }
+        ]
+    }
+}
