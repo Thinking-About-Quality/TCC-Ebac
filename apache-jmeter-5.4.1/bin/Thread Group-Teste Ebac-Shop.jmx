@@ -93,7 +93,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Usuarios Ebac" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">C:/Users/EDUARDO/REPOSITORIO/Ebac-Shop/UsuariosEbac.csv</stringProp>
+          <stringProp name="filename">C:/Users/2160000778/TCC-Ebac/apache-jmeter-5.4.1/UsuariosEbac.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>

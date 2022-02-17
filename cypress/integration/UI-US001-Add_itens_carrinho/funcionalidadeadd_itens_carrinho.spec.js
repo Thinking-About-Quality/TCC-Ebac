@@ -12,7 +12,7 @@ describe('Adicionar item ao carrinho', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', 3)
     });
     it.only('Adicionar produto no carrinho com sucesso', () => {
-        cy.addProdutos('Abominable Hoodie', 'L', 'Red', 1)
+        cy.addProdutos('Abominable Hoodie', 'L', 'Red', 10)
         
     });
     

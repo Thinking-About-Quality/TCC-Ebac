@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import validarlistarcouponsschema from '../../contracts/validarlistarCoupons.contracts'
+import validarlistarcouponschema from '../../contracts/validarlistarCoupons.contracts'
 import validarlistacouponsFixtures from '../../fixtures/dadosListaCouponsAPI.json'
 
 context('Funcionalidades de Coupons API ', () => {
@@ -9,8 +9,8 @@ context('Funcionalidades de Coupons API ', () => {
 
   it('Deve validar contrato de cupons', () => {
           
-    cy.request('cupons').then(response=>{
-         return validarlistarcouponsschema.validateAsync(response.headers.status)
+    cy.ListarCoupons('cupons').then(response=>{
+         return validarlistarcouponschema.validateAsync(response.headers.status)
     })
 });
   it('Listar um Coupons', function () {
@@ -27,7 +27,7 @@ context('Funcionalidades de Coupons API ', () => {
     })
   });
 
-  it('Cadastra um Coupons', function () {
+  it('Cadastrar um Coupons', function () {
     cy.CadastrarCoupons().then(response => {
       cy.log(response.body)
 
